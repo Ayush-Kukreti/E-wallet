@@ -1,6 +1,5 @@
 package com.example.wallet.ewallet;
 
-import com.example.wallet.ewallet.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
