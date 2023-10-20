@@ -1,6 +1,7 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.request;
 
 
+import com.example.wallet.ewallet.UserIdentifier;
 import com.example.wallet.ewallet.model.User;
 import lombok.*;
 

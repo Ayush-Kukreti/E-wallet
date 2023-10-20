@@ -1,4 +1,4 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.repository;
 
 import com.example.wallet.ewallet.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
