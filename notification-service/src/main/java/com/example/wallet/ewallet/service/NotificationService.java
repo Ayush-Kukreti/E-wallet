@@ -1,5 +1,6 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.service;
 
+import com.example.wallet.ewallet.CommonConstants;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

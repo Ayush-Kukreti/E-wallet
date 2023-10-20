@@ -1,4 +1,4 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

@@ -1,5 +1,6 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.config;
 
+import com.example.wallet.ewallet.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,7 @@
 package com.example.wallet.ewallet;
 
 
+import com.example.wallet.ewallet.model.User;
 import lombok.*;
 
 import javax.validation.constraints.NotBlank;

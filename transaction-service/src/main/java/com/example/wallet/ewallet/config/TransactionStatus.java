@@ -1,4 +1,4 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.config;
 
 public enum TransactionStatus {
     PENDING,

@@ -1,4 +1,4 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.config;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

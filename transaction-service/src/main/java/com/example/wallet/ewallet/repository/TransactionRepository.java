@@ -1,5 +1,7 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.repository;
 
+import com.example.wallet.ewallet.config.TransactionStatus;
+import com.example.wallet.ewallet.model.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

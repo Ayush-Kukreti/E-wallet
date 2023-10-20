@@ -1,5 +1,6 @@
-package com.example.wallet.ewallet;
+package com.example.wallet.ewallet.model;
 
+import com.example.wallet.ewallet.config.TransactionStatus;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
