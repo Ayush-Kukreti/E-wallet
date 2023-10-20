@@ -14,7 +14,6 @@ public class CommonConstants {
     public static final String USER_CREATION_TOPIC_PHONE_NUMBER = "phoneNumber";
     public static final String WALLET_UPDATED_TOPIC = "wallet_updated";
 
-
     // data constants
     public static final String SENDER = "sender";
     public static final String RECEIVER = "receiver";
