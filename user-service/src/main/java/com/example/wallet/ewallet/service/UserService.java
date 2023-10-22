@@ -1,9 +1,10 @@
 package com.example.wallet.ewallet.service;
 
 import com.example.wallet.ewallet.CommonConstants;
-import com.example.wallet.ewallet.request.UserCreateRequest;
+import com.example.wallet.ewallet.User;
+import com.example.wallet.ewallet.constants.UserConstants;
 import com.example.wallet.ewallet.repository.UserRepository;
-import com.example.wallet.ewallet.model.User;
+import com.example.wallet.ewallet.request.UserCreateRequest;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONObject;

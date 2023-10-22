@@ -1,8 +1,8 @@
 package com.example.wallet.ewallet.request;
 
 
+import com.example.wallet.ewallet.User;
 import com.example.wallet.ewallet.UserIdentifier;
-import com.example.wallet.ewallet.model.User;
 import lombok.*;
 
 import javax.validation.constraints.NotBlank;
@@ -38,15 +38,15 @@ public class UserCreateRequest {
     private String identifierValue;
 
     public User buildUser() {
-       return  User.builder()
-               .name(name)
-               .phoneNumber(phoneNumber)
-               .password(password)
-               .email(email)
-               .userIdentifier(userIdentifier)
-               .identifierValue(identifierValue)
-               .dob(dob)
-               .country(country)
-               .build();
+        return  User.builder()
+                .name(name)
+                .phoneNumber(phoneNumber)
+                .password(password)
+                .email(email)
+                .userIdentifier(userIdentifier)
+                .identifierValue(identifierValue)
+                .dob(dob)
+                .country(country)
+                .build();
     }
 }
